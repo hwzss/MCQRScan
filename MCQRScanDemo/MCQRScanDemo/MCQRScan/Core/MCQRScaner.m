@@ -70,7 +70,6 @@ typedef enum : NSUInteger {
         [_avSession addInput:_avInput];
         [_avSession addOutput:_avMetaDataOutput];
         
-        // FIXME: 这一句放在session初始化前就报错，还不知原因
         _avMetaDataOutput.metadataObjectTypes = @[AVMetadataObjectTypeQRCode,
                                                   AVMetadataObjectTypeEAN13Code,
                                                   AVMetadataObjectTypeEAN8Code,
