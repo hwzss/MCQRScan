@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85139F021EC99E4004E9AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139EF21EC99E4004E9AA0 /* AppDelegate.m */; };
+		A85139F321EC99E4004E9AA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139F221EC99E4004E9AA0 /* ViewController.m */; };
+		A85139F621EC99E4004E9AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85139F421EC99E4004E9AA0 /* Main.storyboard */; };
+		A85139F821EC99E6004E9AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85139F721EC99E6004E9AA0 /* Assets.xcassets */; };
+		A85139FB21EC99E6004E9AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85139F921EC99E6004E9AA0 /* LaunchScreen.storyboard */; };
+		A85139FE21EC99E6004E9AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139FD21EC99E6004E9AA0 /* main.m */; };
+		A8513A0821EC99E6004E9AA0 /* MCQRScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A0721EC99E6004E9AA0 /* MCQRScanDemoTests.m */; };
+		A8513A1621EC9A1F004E9AA0 /* MCQRScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */; };
+		A8513A1721EC9A1F004E9AA0 /* MCScanUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */; };
+		A8513A1C21EC9B11004E9AA0 /* MCAVDeviceUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */; };
+		A8513A2121EC9B1D004E9AA0 /* MCCustomScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */; };
+		A8513A2221EC9B1D004E9AA0 /* MCQRScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */; };
+		A8513A2821ECA509004E9AA0 /* DemoScanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A2721ECA509004E9AA0 /* DemoScanVc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8513A0421EC99E6004E9AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85139E321EC99E4004E9AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85139EA21EC99E4004E9AA0;
+			remoteInfo = MCQRScanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A85139EB21EC99E4004E9AA0 /* MCQRScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCQRScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85139EE21EC99E4004E9AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85139EF21EC99E4004E9AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85139F121EC99E4004E9AA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A85139F221EC99E4004E9AA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A85139F521EC99E4004E9AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85139F721EC99E6004E9AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85139FA21EC99E6004E9AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85139FC21EC99E6004E9AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85139FD21EC99E6004E9AA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8513A0321EC99E6004E9AA0 /* MCQRScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCQRScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8513A0721EC99E6004E9AA0 /* MCQRScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCQRScanDemoTests.m; sourceTree = "<group>"; };
+		A8513A0921EC99E6004E9AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScaner.m; sourceTree = "<group>"; };
+		A8513A1321EC9A1E004E9AA0 /* MCScanUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCScanUIView.h; sourceTree = "<group>"; };
+		A8513A1421EC9A1F004E9AA0 /* MCQRScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScaner.h; sourceTree = "<group>"; };
+		A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCScanUIView.m; sourceTree = "<group>"; };
+		A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVDeviceUntil.m; sourceTree = "<group>"; };
+		A8513A1B21EC9B11004E9AA0 /* MCAVDeviceUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVDeviceUntil.h; sourceTree = "<group>"; };
+		A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCustomScanView.m; sourceTree = "<group>"; };
+		A8513A1E21EC9B1D004E9AA0 /* MCQRScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScanController.h; sourceTree = "<group>"; };
+		A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScanController.m; sourceTree = "<group>"; };
+		A8513A2021EC9B1D004E9AA0 /* MCCustomScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCustomScanView.h; sourceTree = "<group>"; };
+		A8513A2621ECA509004E9AA0 /* DemoScanVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoScanVc.h; sourceTree = "<group>"; };
+		A8513A2721ECA509004E9AA0 /* DemoScanVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoScanVc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85139E821EC99E4004E9AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8513A0021EC99E6004E9AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85139E221EC99E4004E9AA0 = {
+			isa = PBXGroup;
+			children = (
+				A85139ED21EC99E4004E9AA0 /* MCQRScanDemo */,
+				A8513A0621EC99E6004E9AA0 /* MCQRScanDemoTests */,
+				A85139EC21EC99E4004E9AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85139EC21EC99E4004E9AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85139EB21EC99E4004E9AA0 /* MCQRScanDemo.app */,
+				A8513A0321EC99E6004E9AA0 /* MCQRScanDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85139ED21EC99E4004E9AA0 /* MCQRScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8513A1821EC9A24004E9AA0 /* MCQRScan */,
+				A85139EE21EC99E4004E9AA0 /* AppDelegate.h */,
+				A85139EF21EC99E4004E9AA0 /* AppDelegate.m */,
+				A85139F121EC99E4004E9AA0 /* ViewController.h */,
+				A85139F221EC99E4004E9AA0 /* ViewController.m */,
+				A8513A2621ECA509004E9AA0 /* DemoScanVc.h */,
+				A8513A2721ECA509004E9AA0 /* DemoScanVc.m */,
+				A85139F421EC99E4004E9AA0 /* Main.storyboard */,
+				A85139F721EC99E6004E9AA0 /* Assets.xcassets */,
+				A85139F921EC99E6004E9AA0 /* LaunchScreen.storyboard */,
+				A85139FC21EC99E6004E9AA0 /* Info.plist */,
+				A85139FD21EC99E6004E9AA0 /* main.m */,
+			);
+			path = MCQRScanDemo;
+			sourceTree = "<group>";
+		};
+		A8513A0621EC99E6004E9AA0 /* MCQRScanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8513A0721EC99E6004E9AA0 /* MCQRScanDemoTests.m */,
+				A8513A0921EC99E6004E9AA0 /* Info.plist */,
+			);
+			path = MCQRScanDemoTests;
+			sourceTree = "<group>";
+		};
+		A8513A1821EC9A24004E9AA0 /* MCQRScan */ = {
+			isa = PBXGroup;
+			children = (
+				A8513A2321EC9B21004E9AA0 /* CustomUI */,
+				A8513A1921EC9AF8004E9AA0 /* Core */,
+			);
+			path = MCQRScan;
+			sourceTree = "<group>";
+		};
+		A8513A1921EC9AF8004E9AA0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8513A1B21EC9B11004E9AA0 /* MCAVDeviceUntil.h */,
+				A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */,
+				A8513A1421EC9A1F004E9AA0 /* MCQRScaner.h */,
+				A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */,
+				A8513A1321EC9A1E004E9AA0 /* MCScanUIView.h */,
+				A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A8513A2321EC9B21004E9AA0 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A8513A2021EC9B1D004E9AA0 /* MCCustomScanView.h */,
+				A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */,
+				A8513A1E21EC9B1D004E9AA0 /* MCQRScanController.h */,
+				A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85139EA21EC99E4004E9AA0 /* MCQRScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8513A0C21EC99E6004E9AA0 /* Build configuration list for PBXNativeTarget "MCQRScanDemo" */;
+			buildPhases = (
+				A85139E721EC99E4004E9AA0 /* Sources */,
+				A85139E821EC99E4004E9AA0 /* Frameworks */,
+				A85139E921EC99E4004E9AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCQRScanDemo;
+			productName = MCQRScanDemo;
+			productReference = A85139EB21EC99E4004E9AA0 /* MCQRScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8513A0221EC99E6004E9AA0 /* MCQRScanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8513A0F21EC99E6004E9AA0 /* Build configuration list for PBXNativeTarget "MCQRScanDemoTests" */;
+			buildPhases = (
+				A85139FF21EC99E6004E9AA0 /* Sources */,
+				A8513A0021EC99E6004E9AA0 /* Frameworks */,
+				A8513A0121EC99E6004E9AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8513A0521EC99E6004E9AA0 /* PBXTargetDependency */,
+			);
+			name = MCQRScanDemoTests;
+			productName = MCQRScanDemoTests;
+			productReference = A8513A0321EC99E6004E9AA0 /* MCQRScanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85139E321EC99E4004E9AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MC_MaoDou;
+				TargetAttributes = {
+					A85139EA21EC99E4004E9AA0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A8513A0221EC99E6004E9AA0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A85139EA21EC99E4004E9AA0;
+					};
+				};
+			};
+			buildConfigurationList = A85139E621EC99E4004E9AA0 /* Build configuration list for PBXProject "MCQRScanDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85139E221EC99E4004E9AA0;
+			productRefGroup = A85139EC21EC99E4004E9AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85139EA21EC99E4004E9AA0 /* MCQRScanDemo */,
+				A8513A0221EC99E6004E9AA0 /* MCQRScanDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85139E921EC99E4004E9AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85139FB21EC99E6004E9AA0 /* LaunchScreen.storyboard in Resources */,
+				A85139F821EC99E6004E9AA0 /* Assets.xcassets in Resources */,
+				A85139F621EC99E4004E9AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8513A0121EC99E6004E9AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85139E721EC99E4004E9AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85139F321EC99E4004E9AA0 /* ViewController.m in Sources */,
+				A85139FE21EC99E6004E9AA0 /* main.m in Sources */,
+				A8513A1621EC9A1F004E9AA0 /* MCQRScaner.m in Sources */,
+				A8513A2221EC9B1D004E9AA0 /* MCQRScanController.m in Sources */,
+				A8513A1721EC9A1F004E9AA0 /* MCScanUIView.m in Sources */,
+				A8513A2121EC9B1D004E9AA0 /* MCCustomScanView.m in Sources */,
+				A85139F021EC99E4004E9AA0 /* AppDelegate.m in Sources */,
+				A8513A2821ECA509004E9AA0 /* DemoScanVc.m in Sources */,
+				A8513A1C21EC9B11004E9AA0 /* MCAVDeviceUntil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85139FF21EC99E6004E9AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8513A0821EC99E6004E9AA0 /* MCQRScanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8513A0521EC99E6004E9AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85139EA21EC99E4004E9AA0 /* MCQRScanDemo */;
+			targetProxy = A8513A0421EC99E6004E9AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85139F421EC99E4004E9AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85139F521EC99E4004E9AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85139F921EC99E6004E9AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85139FA21EC99E6004E9AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8513A0A21EC99E6004E9AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8513A0B21EC99E6004E9AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8513A0D21EC99E6004E9AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R8264RPHR;
+				INFOPLIST_FILE = MCQRScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mochukeji.MCQRScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8513A0E21EC99E6004E9AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R8264RPHR;
+				INFOPLIST_FILE = MCQRScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mochukeji.MCQRScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8513A1021EC99E6004E9AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MCQRScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mochukeji.MCQRScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCQRScanDemo.app/MCQRScanDemo";
+			};
+			name = Debug;
+		};
+		A8513A1121EC99E6004E9AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MCQRScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mochukeji.MCQRScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCQRScanDemo.app/MCQRScanDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85139E621EC99E4004E9AA0 /* Build configuration list for PBXProject "MCQRScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8513A0A21EC99E6004E9AA0 /* Debug */,
+				A8513A0B21EC99E6004E9AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8513A0C21EC99E6004E9AA0 /* Build configuration list for PBXNativeTarget "MCQRScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8513A0D21EC99E6004E9AA0 /* Debug */,
+				A8513A0E21EC99E6004E9AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8513A0F21EC99E6004E9AA0 /* Build configuration list for PBXNativeTarget "MCQRScanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8513A1021EC99E6004E9AA0 /* Debug */,
+				A8513A1121EC99E6004E9AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85139E321EC99E4004E9AA0 /* Project object */;
+}
