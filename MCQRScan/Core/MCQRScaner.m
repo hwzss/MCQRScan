@@ -129,8 +129,15 @@ typedef enum : NSUInteger {
     }
 }
 
-- (void)scanQRFromImage:(UIImage *)image {
-    
+- (NSString *)scanQRFromImage:(UIImage *)image {
+    CIDetector *detector = [CIDetector detectorOfType:CIDetectorTypeQRCode context:nil options:@{CIDetectorAccuracy:CIDetectorAccuracyHigh}];
+    NSArray *features = [detector featuresInImage:image.CIImage];
+    NSString *code;
+    if (features.count >= 1){
+        CIQRCodeFeature *feature = [features firstObject];
+        code = [feature messageString];
+    }
+    return code;
 }
 
 

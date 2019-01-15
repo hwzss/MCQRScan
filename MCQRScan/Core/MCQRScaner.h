@@ -42,7 +42,7 @@ typedef void(^MCQRScanerMonitorBrightnessBlock)(CGFloat brightnessValue);
 
  @param image 二维码图
  */
-- (void)scanQRFromImage:(UIImage *)image;
+- (NSString *)scanQRFromImage:(UIImage *)image;
 
 /**
  开启亮度检测
