@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
   s.author       = { "maodou" => "maodou@ecook.cn" }
   s.source       = { :git => "https://github.com/hwzss/MCQRScan.git" }
 
-  s.source_files  = "MCQRScan", "MCQRScan/**/*.{h,m}"
+  s.source_files = "MCQRScan", "MCQRScan/**/*.{h,m}"
+  s.resources    = "Resources/*.png"
 
   # s.public_header_files = "Classes/**/*.h"
 
