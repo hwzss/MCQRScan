@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83F958321ED798A0005854A /* MCQRScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957821ED798A0005854A /* MCQRScanController.m */; };
+		A83F958421ED798A0005854A /* MCCustomScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957B21ED798A0005854A /* MCCustomScanView.m */; };
+		A83F958521ED798A0005854A /* MCScanUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957D21ED798A0005854A /* MCScanUIView.m */; };
+		A83F958621ED798A0005854A /* MCQRScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957F21ED798A0005854A /* MCQRScaner.m */; };
+		A83F958721ED798A0005854A /* MCAVDeviceUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F958121ED798A0005854A /* MCAVDeviceUntil.m */; };
 		A85139F021EC99E4004E9AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139EF21EC99E4004E9AA0 /* AppDelegate.m */; };
 		A85139F321EC99E4004E9AA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139F221EC99E4004E9AA0 /* ViewController.m */; };
 		A85139F621EC99E4004E9AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85139F421EC99E4004E9AA0 /* Main.storyboard */; };
@@ -14,11 +19,6 @@
 		A85139FB21EC99E6004E9AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85139F921EC99E6004E9AA0 /* LaunchScreen.storyboard */; };
 		A85139FE21EC99E6004E9AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139FD21EC99E6004E9AA0 /* main.m */; };
 		A8513A0821EC99E6004E9AA0 /* MCQRScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A0721EC99E6004E9AA0 /* MCQRScanDemoTests.m */; };
-		A8513A1621EC9A1F004E9AA0 /* MCQRScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */; };
-		A8513A1721EC9A1F004E9AA0 /* MCScanUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */; };
-		A8513A1C21EC9B11004E9AA0 /* MCAVDeviceUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */; };
-		A8513A2121EC9B1D004E9AA0 /* MCCustomScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */; };
-		A8513A2221EC9B1D004E9AA0 /* MCQRScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */; };
 		A8513A2821ECA509004E9AA0 /* DemoScanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = A8513A2721ECA509004E9AA0 /* DemoScanVc.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A83F957821ED798A0005854A /* MCQRScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScanController.m; sourceTree = "<group>"; };
+		A83F957921ED798A0005854A /* MCCustomScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCustomScanView.h; sourceTree = "<group>"; };
+		A83F957A21ED798A0005854A /* MCQRScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScanController.h; sourceTree = "<group>"; };
+		A83F957B21ED798A0005854A /* MCCustomScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCustomScanView.m; sourceTree = "<group>"; };
+		A83F957D21ED798A0005854A /* MCScanUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCScanUIView.m; sourceTree = "<group>"; };
+		A83F957E21ED798A0005854A /* MCAVDeviceUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVDeviceUntil.h; sourceTree = "<group>"; };
+		A83F957F21ED798A0005854A /* MCQRScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScaner.m; sourceTree = "<group>"; };
+		A83F958021ED798A0005854A /* MCScanUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCScanUIView.h; sourceTree = "<group>"; };
+		A83F958121ED798A0005854A /* MCAVDeviceUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVDeviceUntil.m; sourceTree = "<group>"; };
+		A83F958221ED798A0005854A /* MCQRScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScaner.h; sourceTree = "<group>"; };
 		A85139EB21EC99E4004E9AA0 /* MCQRScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCQRScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85139EE21EC99E4004E9AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A85139EF21EC99E4004E9AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,16 +56,6 @@
 		A8513A0321EC99E6004E9AA0 /* MCQRScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCQRScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8513A0721EC99E6004E9AA0 /* MCQRScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCQRScanDemoTests.m; sourceTree = "<group>"; };
 		A8513A0921EC99E6004E9AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScaner.m; sourceTree = "<group>"; };
-		A8513A1321EC9A1E004E9AA0 /* MCScanUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCScanUIView.h; sourceTree = "<group>"; };
-		A8513A1421EC9A1F004E9AA0 /* MCQRScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScaner.h; sourceTree = "<group>"; };
-		A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCScanUIView.m; sourceTree = "<group>"; };
-		A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVDeviceUntil.m; sourceTree = "<group>"; };
-		A8513A1B21EC9B11004E9AA0 /* MCAVDeviceUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVDeviceUntil.h; sourceTree = "<group>"; };
-		A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCustomScanView.m; sourceTree = "<group>"; };
-		A8513A1E21EC9B1D004E9AA0 /* MCQRScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScanController.h; sourceTree = "<group>"; };
-		A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQRScanController.m; sourceTree = "<group>"; };
-		A8513A2021EC9B1D004E9AA0 /* MCCustomScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCustomScanView.h; sourceTree = "<group>"; };
 		A8513A2621ECA509004E9AA0 /* DemoScanVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoScanVc.h; sourceTree = "<group>"; };
 		A8513A2721ECA509004E9AA0 /* DemoScanVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoScanVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +78,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A83F957621ED798A0005854A /* MCQRScan */ = {
+			isa = PBXGroup;
+			children = (
+				A83F957721ED798A0005854A /* CustomUI */,
+				A83F957C21ED798A0005854A /* Core */,
+			);
+			name = MCQRScan;
+			path = ../../MCQRScan;
+			sourceTree = "<group>";
+		};
+		A83F957721ED798A0005854A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A83F957A21ED798A0005854A /* MCQRScanController.h */,
+				A83F957821ED798A0005854A /* MCQRScanController.m */,
+				A83F957921ED798A0005854A /* MCCustomScanView.h */,
+				A83F957B21ED798A0005854A /* MCCustomScanView.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		A83F957C21ED798A0005854A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A83F958021ED798A0005854A /* MCScanUIView.h */,
+				A83F957D21ED798A0005854A /* MCScanUIView.m */,
+				A83F957E21ED798A0005854A /* MCAVDeviceUntil.h */,
+				A83F958121ED798A0005854A /* MCAVDeviceUntil.m */,
+				A83F958221ED798A0005854A /* MCQRScaner.h */,
+				A83F957F21ED798A0005854A /* MCQRScaner.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		A85139E221EC99E4004E9AA0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +133,7 @@
 		A85139ED21EC99E4004E9AA0 /* MCQRScanDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A8513A1821EC9A24004E9AA0 /* MCQRScan */,
+				A83F957621ED798A0005854A /* MCQRScan */,
 				A85139EE21EC99E4004E9AA0 /* AppDelegate.h */,
 				A85139EF21EC99E4004E9AA0 /* AppDelegate.m */,
 				A85139F121EC99E4004E9AA0 /* ViewController.h */,
@@ -122,39 +156,6 @@
 				A8513A0921EC99E6004E9AA0 /* Info.plist */,
 			);
 			path = MCQRScanDemoTests;
-			sourceTree = "<group>";
-		};
-		A8513A1821EC9A24004E9AA0 /* MCQRScan */ = {
-			isa = PBXGroup;
-			children = (
-				A8513A2321EC9B21004E9AA0 /* CustomUI */,
-				A8513A1921EC9AF8004E9AA0 /* Core */,
-			);
-			path = MCQRScan;
-			sourceTree = "<group>";
-		};
-		A8513A1921EC9AF8004E9AA0 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A8513A1B21EC9B11004E9AA0 /* MCAVDeviceUntil.h */,
-				A8513A1A21EC9B11004E9AA0 /* MCAVDeviceUntil.m */,
-				A8513A1421EC9A1F004E9AA0 /* MCQRScaner.h */,
-				A8513A1221EC9A1E004E9AA0 /* MCQRScaner.m */,
-				A8513A1321EC9A1E004E9AA0 /* MCScanUIView.h */,
-				A8513A1521EC9A1F004E9AA0 /* MCScanUIView.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A8513A2321EC9B21004E9AA0 /* CustomUI */ = {
-			isa = PBXGroup;
-			children = (
-				A8513A2021EC9B1D004E9AA0 /* MCCustomScanView.h */,
-				A8513A1D21EC9B1C004E9AA0 /* MCCustomScanView.m */,
-				A8513A1E21EC9B1D004E9AA0 /* MCQRScanController.h */,
-				A8513A1F21EC9B1D004E9AA0 /* MCQRScanController.m */,
-			);
-			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,15 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83F958521ED798A0005854A /* MCScanUIView.m in Sources */,
+				A83F958421ED798A0005854A /* MCCustomScanView.m in Sources */,
+				A83F958721ED798A0005854A /* MCAVDeviceUntil.m in Sources */,
 				A85139F321EC99E4004E9AA0 /* ViewController.m in Sources */,
 				A85139FE21EC99E6004E9AA0 /* main.m in Sources */,
-				A8513A1621EC9A1F004E9AA0 /* MCQRScaner.m in Sources */,
-				A8513A2221EC9B1D004E9AA0 /* MCQRScanController.m in Sources */,
-				A8513A1721EC9A1F004E9AA0 /* MCScanUIView.m in Sources */,
-				A8513A2121EC9B1D004E9AA0 /* MCCustomScanView.m in Sources */,
+				A83F958321ED798A0005854A /* MCQRScanController.m in Sources */,
 				A85139F021EC99E4004E9AA0 /* AppDelegate.m in Sources */,
+				A83F958621ED798A0005854A /* MCQRScaner.m in Sources */,
 				A8513A2821ECA509004E9AA0 /* DemoScanVc.m in Sources */,
-				A8513A1C21EC9B11004E9AA0 /* MCAVDeviceUntil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
