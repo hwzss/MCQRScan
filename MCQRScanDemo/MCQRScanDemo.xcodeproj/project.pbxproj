@@ -12,9 +12,9 @@
 		A83F958521ED798A0005854A /* MCScanUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957D21ED798A0005854A /* MCScanUIView.m */; };
 		A83F958621ED798A0005854A /* MCQRScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F957F21ED798A0005854A /* MCQRScaner.m */; };
 		A83F958721ED798A0005854A /* MCAVDeviceUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F958121ED798A0005854A /* MCAVDeviceUntil.m */; };
-		A83F958921ED7B050005854A /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F958821ED7B050005854A /* scanLine@2x.png */; };
-		A83F958C21ED7B130005854A /* scanFlashlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F958A21ED7B120005854A /* scanFlashlight@3x.png */; };
-		A83F958D21ED7B130005854A /* scanFlashlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F958B21ED7B120005854A /* scanFlashlight@2x.png */; };
+		A83F95C321ED7DDB0005854A /* scanFlashlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F95C021ED7DDB0005854A /* scanFlashlight@3x.png */; };
+		A83F95C421ED7DDB0005854A /* scanFlashlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F95C121ED7DDB0005854A /* scanFlashlight@2x.png */; };
+		A83F95C521ED7DDB0005854A /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A83F95C221ED7DDB0005854A /* scanLine@2x.png */; };
 		A85139F021EC99E4004E9AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139EF21EC99E4004E9AA0 /* AppDelegate.m */; };
 		A85139F321EC99E4004E9AA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85139F221EC99E4004E9AA0 /* ViewController.m */; };
 		A85139F621EC99E4004E9AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85139F421EC99E4004E9AA0 /* Main.storyboard */; };
@@ -46,9 +46,9 @@
 		A83F958021ED798A0005854A /* MCScanUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCScanUIView.h; sourceTree = "<group>"; };
 		A83F958121ED798A0005854A /* MCAVDeviceUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVDeviceUntil.m; sourceTree = "<group>"; };
 		A83F958221ED798A0005854A /* MCQRScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQRScaner.h; sourceTree = "<group>"; };
-		A83F958821ED7B050005854A /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
-		A83F958A21ED7B120005854A /* scanFlashlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanFlashlight@3x.png"; sourceTree = "<group>"; };
-		A83F958B21ED7B120005854A /* scanFlashlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanFlashlight@2x.png"; sourceTree = "<group>"; };
+		A83F95C021ED7DDB0005854A /* scanFlashlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanFlashlight@3x.png"; sourceTree = "<group>"; };
+		A83F95C121ED7DDB0005854A /* scanFlashlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanFlashlight@2x.png"; sourceTree = "<group>"; };
+		A83F95C221ED7DDB0005854A /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
 		A85139EB21EC99E4004E9AA0 /* MCQRScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCQRScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85139EE21EC99E4004E9AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A85139EF21EC99E4004E9AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,14 +118,15 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		A83F958E21ED7B170005854A /* Resources */ = {
+		A83F95BF21ED7DDB0005854A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A83F958B21ED7B120005854A /* scanFlashlight@2x.png */,
-				A83F958A21ED7B120005854A /* scanFlashlight@3x.png */,
-				A83F958821ED7B050005854A /* scanLine@2x.png */,
+				A83F95C021ED7DDB0005854A /* scanFlashlight@3x.png */,
+				A83F95C121ED7DDB0005854A /* scanFlashlight@2x.png */,
+				A83F95C221ED7DDB0005854A /* scanLine@2x.png */,
 			);
-			path = Resources;
+			name = Resources;
+			path = ../../Resources;
 			sourceTree = "<group>";
 		};
 		A85139E221EC99E4004E9AA0 = {
@@ -149,7 +150,7 @@
 		A85139ED21EC99E4004E9AA0 /* MCQRScanDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A83F958E21ED7B170005854A /* Resources */,
+				A83F95BF21ED7DDB0005854A /* Resources */,
 				A83F957621ED798A0005854A /* MCQRScan */,
 				A85139EE21EC99E4004E9AA0 /* AppDelegate.h */,
 				A85139EF21EC99E4004E9AA0 /* AppDelegate.m */,
@@ -255,12 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83F958C21ED7B130005854A /* scanFlashlight@3x.png in Resources */,
+				A83F95C421ED7DDB0005854A /* scanFlashlight@2x.png in Resources */,
 				A85139FB21EC99E6004E9AA0 /* LaunchScreen.storyboard in Resources */,
-				A83F958921ED7B050005854A /* scanLine@2x.png in Resources */,
 				A85139F821EC99E6004E9AA0 /* Assets.xcassets in Resources */,
+				A83F95C321ED7DDB0005854A /* scanFlashlight@3x.png in Resources */,
 				A85139F621EC99E4004E9AA0 /* Main.storyboard in Resources */,
-				A83F958D21ED7B130005854A /* scanFlashlight@2x.png in Resources */,
+				A83F95C521ED7DDB0005854A /* scanLine@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/hwzss/MCQRScan"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-
+  s.platform     = :ios, "8.0"
   s.author       = { "maodou" => "maodou@ecook.cn" }
   s.source       = { :git => "https://github.com/hwzss/MCQRScan.git" }
 
