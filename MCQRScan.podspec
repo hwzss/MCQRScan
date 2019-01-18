@@ -19,20 +19,11 @@ Pod::Spec.new do |s|
   s.author       = { "maodou" => "maodou@ecook.cn" }
   s.source       = { :git => "https://github.com/hwzss/MCQRScan.git" }
 
-  s.source_files = "MCQRScan", "MCQRScan/**/*.{h,m}"
+  s.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"
   s.resources    = "Resources/*.png"
 
+  s.subspec 'CustomUI' do |sp|
+    sp.source_files = "MCQRScan/CustomUI/**/*.{h,m}"
+  end
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 end

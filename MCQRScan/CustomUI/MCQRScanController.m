@@ -1,5 +1,5 @@
 //
-//  ScanViewController.m
+//  MCQRScanController.m
 //  MC_Express
 //
 //  Created by kaifa on 2019/1/4.
