@@ -8,15 +8,18 @@
 // 添加扫描时显示摄像头画面的 view
 _scanView = [[MCScanUIView alloc] initWithFrame:self.view.bounds];
 _scanView.scanRect = CGRectMake(kX, kY, kW, kH);
-[self.view addSubview:_scanView];    
+[self.view addSubview:_scanView];  
+  
 // 创建二维码扫描工具
 _qrScaner = [[MCQRScaner alloc] init];
+
 // 绑定摄像显示的 preview
 [_qrScaner addPreview:preview];
-// 开始打开相机识别二维码
- [_qrScaner openCarmeraToScanQR:^(NSString * _Nonnull code) {
-        NSLog(@"code: %@", code);
-    }];
+
+// 打开相机识别二维码
+[_qrScaner openCarmeraToScanQR:^(NSString * _Nonnull code) {
+    NSLog(@"code: %@", code);
+}];
 
 ```
 默认是二维码出现在屏幕里就开始识别，如果想要二维码进入边框后在识别，可以添加如下代码：
