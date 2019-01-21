@@ -74,3 +74,6 @@ _qrScaner = [[MCQRScaner alloc] init];
 基于 `MCQRScaner` 与 `MCScanUIView` 写的一个简单的二维码扫描界面，通过它你能更好的理解 `MCQRScaner` 与 `MCScanUIView` 如何搭配来形成一个二维码扫描界面，当然你也可以直接使用 `MCQRScanController` 来实现效果。
 
 
+#### Author
+杭州魔厨科技-青芒小组-maodou@ecook.cn
+
