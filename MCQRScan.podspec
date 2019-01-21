@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, "8.0"
   s.author       = { "maodou" => "maodou@ecook.cn" }
-  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git", :tag => s.version.to_s, :submodules => true }
 
   s.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"
   s.resources    = "Resources/*.png"
 
   s.subspec 'CustomUI' do |sp|
     sp.source_files = "MCQRScan/CustomUI/**/*.{h,m}"
-    sp.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_CustomUI=1'}
+    # sp.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_CustomUI=1'}
   end
 
 end
