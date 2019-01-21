@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'CustomUI' do |sp|
     sp.source_files = "MCQRScan/CustomUI/**/*.{h,m}"
+    sp.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_CustomUI=1'}
   end
 
 end
