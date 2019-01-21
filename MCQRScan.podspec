@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MCQRScan"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A short description of MCQRScan."
   s.description  = "一个轻量级的二维码扫描识别工具类，已解耦合，容易自定义自己的UI"
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, "8.0"
   s.author       = { "maodou" => "maodou@ecook.cn" }
-  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git" }
+  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git", :tag => s.version.to_s }
 
   s.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"
   s.resources    = "Resources/*.png"
