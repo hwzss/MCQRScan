@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MCQRScan"
-  s.version      = "0.0.1"
+  s.version      = "0.1.1"
   s.summary      = "A short description of MCQRScan."
   s.description  = "一个轻量级的二维码扫描识别工具类，已解耦合，容易自定义自己的UI"
 
