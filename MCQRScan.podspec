@@ -9,31 +9,27 @@
 Pod::Spec.new do |s|
 
   s.name         = "MCQRScan"
-  s.version      = "0.1.2"
-  s.summary      = "A short description of MCQRScan."
+  s.version      = "0.1.3"
+  s.summary      = "一个轻量级的二维码扫描识别工具类，已解耦合，容易自定义自己的UI"
   s.description  = "一个轻量级的二维码扫描识别工具类，已解耦合，容易自定义自己的UI"
 
   s.homepage     = "https://github.com/hwzss/MCQRScan"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, "8.0"
   s.author       = { "maodou" => "maodou@ecook.cn" }
-  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git", :submodules => true } #:tag => s.version.to_s,
-
-  # s.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"
-  # s.resources    = "Resources/*.png"
+  s.source       = { :git => "https://github.com/hwzss/MCQRScan.git",:tag => s.version.to_s, :submodules => true }
   
+  s.default_subspecs = 'MCQRScanCore', 'MCQRScanCustomUI'
 
-  s.subspec 'Core' do |sp|
-    sp.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"
-    sp.resources    = "Resources/*.png"
+  s.subspec 'MCQRScanCore' do |sp|
+    sp.source_files = "MCQRScan", "MCQRScan/Core/**/*.{h,m}"    
   end
-  
-  s.subspec 'CustomUI' do |sp|
+
+  s.subspec 'MCQRScanCustomUI' do |sp|
+    sp.platform     = :ios, "8.0"
     sp.source_files = "MCQRScan/CustomUI/**/*.{h,m}"
-    sp.dependency = 'Core'
-    # sp.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ENABLE_CustomUI=1'}
+    sp.resources    = "Resources/*.png"
+    sp.dependency "MCQRScan/MCQRScanCore"
   end
-
-  s.default_subspecs = 'Core'
 
 end
