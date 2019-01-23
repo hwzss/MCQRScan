@@ -75,5 +75,5 @@ _qrScaner = [[MCQRScaner alloc] init];
 
 
 #### Author
-杭州魔厨科技-青芒小组-maodou@ecook.cn
+杭州魔厨科技-青芒小组- maodou@ecook.cn
 
